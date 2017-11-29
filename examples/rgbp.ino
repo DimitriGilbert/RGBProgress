@@ -25,6 +25,8 @@ void setup()
     humidityProgress.setProgression_MediumMax_(0.4)
     // set green at 0 at 65%
     humidityProgress.setProgression_MediumSop_(0.65);
+    // set blue start 40%
+    humidityProgress.setProgression_FinishIncrementFrom_(0.4);
 }
 
 void loop()
